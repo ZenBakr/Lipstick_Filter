@@ -1,0 +1,21 @@
+h4
+{
+    font-size:25px;
+}
+
+.btn-primary.btn-primary:hover
+{
+background-color: rgb(239, 196, 5);
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow:2px 2px 40px rgb(226, 180, 154);}
+    to { box-shadow: 2px 2px 40px rgb(245, 71, 13);}
+}
